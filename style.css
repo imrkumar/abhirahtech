@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #03fa6e;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h2{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 60vh;
+font-weight: 900;
+font-size: 40px;
+}
