@@ -1,15 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhirahtech</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.png" >
+    <link rel="stylesheet" href="lib/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+   
+    <link rel="icon" href="/images/icon.png">
 </head>
-<body>
-    <h1>Welcome to Abhirahtech</h1>
-    <p>We make websites for clients</p>
-    <h2>Launching soon</h2>
+
+<body style="background-color:#212529;">
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" width="200" height="67">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="font-size: 24px;">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="width-setting">
+        <div class="container col-xxl-8 px-4 py-5" style="padding-top: 1rem !important;">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5" style="padding-top: 1rem !important;">
+                <div class="col-10 col-sm-8 col-lg-6" id="first-img">
+                    <img src="images/first.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                        height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5  lh-1 mb-3" style="color: white; font-size: 2rem;">The best service awaits you
+                    </h1>
+                    <p class="lead" style="color: white; font-size: 37px; font-weight: bold; margin-bottom: 0rem;"><span
+                            style="color: #a1cb3b;">Experience,</span> Not</p>
+                    <p class="lead" style="color: white;  font-size: 37px; font-weight: bold;">Experiment</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container col-xxl-8 px-4 py-5" style="padding-top: 1rem !important;">
+        <h2 class="mb-4">Why Chosse Us</h2>
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5" style="padding-top: 1rem !important;">
+            <div class="col-10 col-sm-8 col-lg-6" id="first-img">
+                <img src="images/second.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                    height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6" style="margin-top: 75px;">
+                <h1 class="display-5  mb-3" style="color: white;font-weight: bold; font-size: 2rem;">Client Site
+                    Approach</h1>
+                <p class="lead" style="color: white; font-size: 18px;  margin-bottom: 1rem;">Your success is our
+                    success. We are dedicated to understanding your goals and working collaboratively to achieve them.
+                </p>
+
+                <h1 class="display-5  mb-3" style="color: white;font-weight: bold; font-size: 2rem;">Innovation and
+                    Creativity</h1>
+                <p class="lead" style="color: white; font-size:18px;  margin-bottom: 1rem;">Innovation drives us. We're
+                    committed to staying at the forefront of industry trends and emerging technologies</p>
+
+                <h1 class="display-5  mb-3" style="color: white;font-weight: bold; font-size: 2rem;">Delivery and
+                    Reliability</h1>
+                <p class="lead" style="color: white; font-size:18px;  margin-bottom: 1rem;">We value your time as much
+                    as you do.Our proven track record of delivering projects on time and within budget commitment to
+                    reliability</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="py-5" style="text-align: center; padding-top: 0rem!important;">
+        <h2 class="mb-4">About Us</h2>
+        <h2 class="display-5 fw-bold text-white" style="font-size: 30px;">Welcome to AbhirahTech- Empowering Tomorrow's
+            Technology Today</h2>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead" style="color: white; font-size:18px;  margin-bottom: 1rem;">At AbhirahTech, we are not just
+                a tech startup; we're architects of digital excellence, crafting solutions that redefine the future of
+                technology. With a passion for innovation and a commitment to delivering unparalleled value, we embark
+                on a mission to transform challenges into opportunities.</p>
+
+        </div>
+    </div>
+
+    <div class="about-card-main-con">
+        <div class="card mb-4  " style="width: 24rem;">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Who We Are</h4>
+            </div>
+            <div class="card-body">
+                <p class="lead" style="color:black; font-size:18px;  margin-bottom: 1rem;">We are a team of passionate
+                    designers, UX/UI experts, and tech enthusiasts, united by a common purpose - to bring visions to
+                    life through the artistry of IT design. Our diverse skill set spans graphic design, user experience
+                    optimization, and interactive media, ensuring that every project we undertake is a seamless fusion
+                    of form and function.</p>
+
+            </div>
+        </div>
+        <div class="card mb-4  margin-left" style="width: 24rem; ">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Our Vision</h4>
+            </div>
+            <div class="card-body">
+                <p class="lead" style="color:black; font-size:18px;  margin-bottom: 1rem;">In a world where the only
+                    constant is change, our vision is to be the catalyst that propels businesses into the next era of
+                    digital evolution. We strive to create a technological ecosystem where seamless integration,
+                    efficiency, and innovation coexist harmoniously.</p>
+
+            </div>
+        </div>
+        <div class="card mb-4 margin-left" style="width: 24rem; ">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Our Approach</h4>
+            </div>
+            <div class="card-body">
+                <p class="lead" style="color:black; font-size:18px;  margin-bottom: 1rem;">Collaboration defines our
+                    approach. We don't just build solutions; we co-create them with our clients. By understanding their
+                    unique challenges, we forge partnerships that transcend the typical client-vendor relationship. From
+                    ideation to execution, we're with you every step of the way.</p>
+
+            </div>
+        </div>
+    </div><br>
+    <div class="py-5" style="text-align: center; padding-top: 0rem!important; padding-bottom: 2rem!important;">
+        <h2 class="mb-4">Contact Us</h2>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead" style="color: white; font-size:18px;  margin-bottom: 1rem;">We appreciate your interest in
+                AbhirahTech. Whether you have questions about our services, want to discuss a potential collaboration,
+                or simply want to say hello, we'd love to hear from you. Contact us using the information below:</p>
+
+        </div>
+    </div><br>
+
+
+    <div class="contact-main-container">
+        <div class=" py-md-5  ">
+            <div class="d-flex gap-3 py-2">
+                <div class="con-style">
+                    <img src="images/call.jpg" style="height: 40px;">
+                </div>
+                <div class="text-white">
+                    <h2 class="mb-0" >Phone</h2>
+                    <p class="mb-0  text-white opacity-75" style="font-size: 20px;">+91 7837337717</p>
+                </div>
+
+            </div>
+            <div class="d-flex gap-3 py-4">
+                <div class="con-style">
+                    <img src="images/email.png" style="height: 40px;">
+                </div>
+                <div class="text-white">
+                    <h2 class="mb-0" >Email</h2>
+                    <p class="mb-0  text-white opacity-75" style="font-size: 20px;">example@gmail.com</p>
+                </div>
+
+            </div>
+            <div class="d-flex gap-3">
+                <div class="con-style">
+                    <img src="images/telegram.png" style="height: 40px;">
+                </div>
+                <div class="text-white">
+                    <h2 class="mb-0" >Telegram</h2>
+                    <p class="mb-0  text-white opacity-75" style="font-size: 20px;">@Abhirahtech</p>
+                </div>
+
+            </div>
+           
+        </div>
+        <div class="form-con">
+
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                <h2 class="mb-4" style="color: black; font-size: 39px;">Send Message</h2>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" placeholder="name">
+                    <label for="floatingname">Full name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="des"></textarea>
+                    <label for="floatingdes">Type a message</label>
+                </div>
+
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Send</button>
+                <hr class="my-4">
+
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 " style="color: white;"><img src="images/icon.png" style="height: 50px;"> © All Right
+                    Reserved. <span style="color: #a1cb3b;">ABHIRAHTECH</span> </span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <!-- <li class="ms-3"><a style="color: white;" href="#"></a><img src="images/twitter.png" height="30px"></li>
+                <li class="ms-3"><a style="color: white;" href="#"></a><i class="bi bi-twitter-x size"></li>
+                <li class="ms-3"><a style="color: white;" href="#"></a><i class="bi bi-facebook  size"></i></li> -->
+
+            </ul>
+        </footer>
+    </div>
+
+    <script src="lib/bootstrap.js"></script>
 </body>
+
 </html>
