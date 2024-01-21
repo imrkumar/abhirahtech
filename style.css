@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -75,11 +75,11 @@
     }
    
 }
-@media screen and (max-width:647px) {
+@media screen and (max-width:770px) {
     .contact-main-container{
        display: flex;
        flex-wrap: wrap;
-       margin-left: 61px;
+       margin-left: 93px;
     }
     .form-con{
        margin-top: 40px;
@@ -92,9 +92,85 @@
   }
    
 }
+@media screen and (min-width:400px) {
+ #email-size{
+    font-size:20px;
+  }
+   
+}
+@media screen and (max-width:399px) {
+ #email-size{
+    font-size: 18px;
+  }
+   
+}
 @media screen and (max-width:502px) {
     .contact-main-container{
     margin-left: 5px;
   }
    
 }
+
+
+
+    @media screen and (max-width: 991px){
+        #second-img{
+            margin-left: 56px;
+            width: 611px;
+    }
+    }
+    @media screen and (max-width:768px){
+        #second-img{
+            margin-left: 9px;
+            width: 611px;
+    }
+    }
+    @media screen and (min-width: 992px){
+        #second-content{
+            margin-top: 75px;
+            
+    }
+    }
+    @media screen and (max-width: 992px){
+        #second-content{
+            margin-top: 28px;
+            
+    }
+    }
+    @media screen and (max-width:515px){
+        #second-img{
+            margin-left: 3px;
+        
+    }
+    }
+    @media screen and (max-width:992px){
+        #about-para{
+               padding: 0rem 2rem;
+            }
+        
+    }
+    @media screen and (min-width:429px){
+        #about-head{
+            font-size: 30px;
+               padding: 0rem 2rem;
+            }
+        
+    }
+    @media screen and (max-width:372px){
+        #about-head{
+            font-size: 26px;
+               padding: 0rem -2rem;
+            }
+        
+    }
+    @media screen and (max-width:1200px){
+        #footer-content{
+            font-size: 26px;
+               
+            }
+        
+    }
+    .cursor a:hover{
+          color: #a1cb3b;
+    }
+   
